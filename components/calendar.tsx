@@ -3,7 +3,7 @@
 
 import { useMemo, useState } from "react"
 import { DayModal } from "./day-modal"
-import { cn } from "@/lib/utils"
+import { cn } from "../src/app/lib/utils"
 
 type CalendarProps = {
   year?: number
